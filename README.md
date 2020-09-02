@@ -11,11 +11,13 @@ Data used in this work contains  tweets from users. The tweets have been collect
   - The tweets are in Major Indic Languages namely Hindi and Marathi  along with English
 
 Following figure shows distribution of Dataset:
-    ![alt text](https://github.com/sp31051998/Political-Orientation-of-user-using-Tweet/blob/master/Images/Dataset%20Distribution.png)
+
+![alt text](https://github.com/sp31051998/Political-Orientation-of-user-using-Tweet/blob/master/Images/Dataset%20Distribution.png)
 
 # Classification of political orientation
 
 In order to classify user orientation, we used variations of both machine learning algorithms as well as deep neural network models. Deep neural network with Word2Vec Embedding gave the best result. Figure 3 shows the architecture diagram for Tweet Classification. First layer is the input layer which accepts a sequence of words which is then passed through the embedding layer which converts word into fixed sized vector representation. Next layer is Bi-directional LSTM with 100 neurons to capture complex structure followed by a fully connected layer. The last layer is the output layer to which a softmax function is applied which converts output to 6 class probabilities.The loss function which we used is binary cross entropy and optimizer as ADAM optimizer. Following figure shows achitecture of Deep Learning Model:
+
 ![alt text](https://github.com/sp31051998/Political-Orientation-of-user-using-Tweet/blob/master/Images/Model%20Architecture.png)
 
 # Results & Discussions
