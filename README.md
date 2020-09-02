@@ -41,4 +41,9 @@ On comparing the existing system average values of Precision, Recall and F-Score
 ![alt text](https://github.com/sp31051998/Political-Orientation-of-user-using-Tweet/blob/master/Images/Exisiting%20System%20vs%20Proposed%20System.png)
 
 # Conclusion
+
 The research belonged to a multi-text classification problem. In this work, we analyzed 33820 tweets which belonged to one of the six classes namely BJP Pro, BJP Anti, Congress Pro, Congress Anti, Shiv Sena Pro, Shiv Sena Anti. Various ML and NN models with word embeddings namely Glove, Word2Vec and FastText, were evaluated for classification of these tweets. The test data contained 735, 1304, 2459, 1149, 885, 232 tweets belonging to Bjp Pro, Bjp Anti, Congress Pro, Congress Anti, Shiv Sena Pro, Shiv Sena Anti respectively. Out of which  596, 1138, 2143, 979, 854, 182 were classified correctly by or system.From the results achieved using different models for different configurations, we have concluded that Bi-directional LSTM with Word2Vec embeddings model performed best with the F-score of 0.8630. During the process of collecting users we found that few users had tweeted their views with Pro orientation with respect to one political party while Anti orientation with respect to another political party. While few users were ambiguous with respect to their political orientation meaning they had tweets having both positive as well as negative views about the same party.
+
+#### Link for Glove Embedding
+
+Deep Learning Notebook requires Glove Embedding. It can downloaded from https://www.kaggle.com/danielwillgeorge/glove6b100dtxt. Add this file in root directorty and name this file as glove.6B.100d.txt. 
